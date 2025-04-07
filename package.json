@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "name": "advanced-javascript-2025-04",
+  "version": "1.0.0",
+  "main": "advanced-functions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPtenBerge/advanced-javascript-2025-04.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JPtenBerge/advanced-javascript-2025-04/issues"
+  },
+  "homepage": "https://github.com/JPtenBerge/advanced-javascript-2025-04#readme",
+  "description": ""
+}

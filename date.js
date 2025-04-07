@@ -1,5 +1,9 @@
 let nu = new Date();
+Date.prototype.toPrettyString = function () {
+	return `${this.getDate()}-${this.getMonth() + 1}-${this.getFullYear()}`;
+};
 
+// polyfills
 
 let day = nu.getDate();
 let month = nu.getMonth();
@@ -10,6 +14,8 @@ console.log(nu.toLocaleDateString());
 
 console.log(new Date('2012/03/13'));
 console.log(new Date('2012-03-13'));
+
+console.log(nu.toPrettyString());
 
 // weergeven - formatten
 // parsen
